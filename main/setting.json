@@ -1,0 +1,23 @@
+{
+	"StockID": "0050.TW",
+	"TrainingPeriod": {
+		"StartDate": "2019-01-01",
+		"EndDate": "2019-12-30"
+	},
+	"ValidationPeriod": {
+		"StartDate": "2020-01-01",
+		"EndDate": "2020-12-30"
+	},
+	"Path": "../data/stock/",
+	"Strategy": "Top15",
+	"SLTP": [10, 10],
+	"pSize": 100,
+	"CrossoverRate": 0.8,
+	"MutationRate": 0.03,
+	"InversionRate": 0.3,
+	"Generation": 100,
+	"kGroup": 4,
+	"mTS": 15,
+	"WeightPart": 200,
+	"Capital": 100000
+}
