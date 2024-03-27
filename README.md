@@ -42,93 +42,20 @@ Algorithmic Trading Optimization Technique
 │     │  │  ├─ StockData.json
 │     │  │  └─ TIvalue.json
 │     │  └─ block.json
-│     ├─ 2308.TW
-│     │  ├─ TrainingData
-│     │  │  ├─ Date.json
-│     │  │  ├─ Signal.json
-│     │  │  ├─ StockData.json
-│     │  │  ├─ TIvalue.json
-│     │  │  └─ Top555.json
-│     │  ├─ ValidationData
-│     │  │  ├─ Date.json
-│     │  │  └─ StockData.json
-│     │  └─ block.json
-│     ├─ 2330.TW
-│     │  ├─ TrainingData
-│     │  │  ├─ Date.json
-│     │  │  ├─ Signal.json
-│     │  │  ├─ StockData.json
-│     │  │  ├─ TIvalue.json
-│     │  │  ├─ TIvalue2.json
-│     │  │  ├─ Table.json
-│     │  │  ├─ Top15.json
-│     │  │  ├─ Top21_Debug.json
-│     │  │  └─ Top555.json
-│     │  ├─ ValidationData
-│     │  │  ├─ Date.json
-│     │  │  └─ StockData.json
-│     │  └─ block.json
-│     ├─ 2344.TW
-│     │  ├─ TrainingData
-│     │  │  ├─ Date.json
-│     │  │  ├─ Signal.json
-│     │  │  ├─ StockData.json
-│     │  │  ├─ TIvalue.json
-│     │  │  └─ Top555.json
-│     │  └─ ValidationData
-│     │     ├─ Date.json
-│     │     └─ StockData.json
-│     ├─ 2412.TW
-│     │  ├─ TrainingData
-│     │  │  ├─ Date.json
-│     │  │  ├─ Signal.json
-│     │  │  ├─ StockData.json
-│     │  │  ├─ TIvalue.json
-│     │  │  └─ Top555.json
-│     │  └─ ValidationData
-│     │     ├─ Date.json
-│     │     ├─ Signal.json
-│     │     ├─ StockData.json
-│     │     └─ TIvalue.json
-│     ├─ 2413.TW
-│     │  ├─ TrainingData
-│     │  │  ├─ Date.json
-│     │  │  ├─ Signal.json
-│     │  │  ├─ StockData.json
-│     │  │  ├─ TIvalue.json
-│     │  │  └─ Top555.json
-│     │  ├─ ValidationData
-│     │  │  ├─ Date.json
-│     │  │  └─ StockData.json
-│     │  └─ block.json
-│     ├─ 2603.TW
-│     │  ├─ History
-│     │  ├─ TrainingData
-│     │  │  ├─ Date.json
-│     │  │  ├─ Signal - 複製.json
-│     │  │  ├─ Signal.json
-│     │  │  ├─ StockData.json
-│     │  │  ├─ TIvalue.json
-│     │  │  ├─ Table - 複製.json
-│     │  │  ├─ Table2.json
-│     │  │  └─ Top555.json
-│     │  ├─ ValidationData
-│     │  │  ├─ Date.json
-│     │  │  └─ StockData.json
-│     │  └─ block.json
-│     └─ META
-│        ├─ TrainingData
-│        │  ├─ Date.json
-│        │  ├─ Signal.json
-│        │  ├─ StockData.json
-│        │  ├─ TIvalue.json
-│        │  └─ Top555.json
-│        ├─ ValidationData
-│        │  ├─ Date.json
-│        │  ├─ Signal.json
-│        │  ├─ StockData.json
-│        │  └─ TIvalue.json
-│        └─ block.json
+│     ├─ 2308.TW (...)
+│     │ 
+│     ├─ 2330.TW (...)
+│     │  
+│     ├─ 2344.TW (...)
+│     │  
+│     ├─ 2412.TW (...)
+│     │  
+│     ├─ 2413.TW (...)
+│     │ 
+│     ├─ 2603.TW (...)
+│     │  
+│     └─ META (...)
+│      
 └─ main
    ├─ Algo
    │  ├─ BackTesting.py
@@ -186,4 +113,3 @@ Algorithmic Trading Optimization Technique
    └─ setting.json
 
 ```
-# Algorithmic-Trading-Optimization-Technique
