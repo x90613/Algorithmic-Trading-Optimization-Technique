@@ -16,10 +16,6 @@ This project will implement the optimization technique for the "Advanced Group T
 - [WMW+18] D. Wen, C. Ma, G.-J. Wang, and S. Wang, ‘‘Investigating the features of pairs trading strategy: A network perspective on the Chinese stock market,’’ Phys. A, Stat. Mech. Appl., vol. 505, pp. 903–918, Sep. 2018.
 - [SN18] S. K. Chandrinos and N. D. Lagaros, ‘‘Construction of currency portfolios by means of an optimized investment strategy,’’ Oper. Res. Perspect., vol. 5, pp. 32–44, 2018.
 
-## Run the project
-
-Coming Soon...
-
 ## Project Tree
 ```
 Algorithmic Trading Optimization Technique
