@@ -1,8 +1,24 @@
-## About this Project
+## Table of Contents
+- [About this project](#About-this-project)
+- [Software Architecture](#Software-Architecture)
+- [Reference](#Reference)
+
+
+# Algorithmic-Trading-Optimization-Technique
+## About this project
 This project will implement the optimization technique for the "Advanced Group Trading Strategy Portfolio(AGTSP)" based on the original theory. It expands the types and quantities of technical indicators and improves the fitness function. Leveraging genetic algorithm (GA), it learns the information embedded in technical indicators and transforms it into trading strategies suitable for investors' use. The proposed methods will be listed in the user interface along with the obtained trading strategy portfolios, average returns, and maximum risks. Therefore, this project aims to develop an "Advanced Group Trading Strategy Portfolio Trading System."
 
-## Reference 
 
+## Architecture
+<img width="531" alt="Screenshot 2024-04-18 at 4 53 32 PM" src="https://github.com/Harry-0613/Algorithmic-Trading-Optimization-Technique/assets/100923612/6340876a-b69f-47ca-8f81-d0c2b1050bd9">
+
+**Data Preprocessing Workflow**
+
+<img width="531" alt="Screenshot 2024-04-18 at 4 43 16 PM" src="https://github.com/Harry-0613/Algorithmic-Trading-Optimization-Technique/assets/100923612/3c7a7c51-ae04-4ccc-8130-474e3e82785d">
+
+**The architecture of genetic algorithm**
+
+## Reference 
 - [FCC13] T.-C. Fu, C.-P. Chung, and F.-L. Chung, ‘‘Adopting genetic algorithms for technical analysis and portfolio management,’’ Comput. Math. Appl., vol. 66, no. 10, pp. 1743–1757, 2013.
 - [CC10] Y.-W. C. Chien and Y. L. Chen, ‘‘Mining associative classification rules with stock trading data—A GA-based method,’’ Knowl.-Based Syst., vol. 23, no. 6, pp. 605–614, 2010.
 - [CKC+14] Y.-H. Chou, S.-Y. Kuo, C.-Y. Chen, and H.-C. Chao, ‘‘A rule-based dynamic decision-making stock trading system based on quantum-inspired tabu search algorithm,’’ IEEE Access, vol. 2, pp. 883–896, 2014.
@@ -15,97 +31,3 @@ This project will implement the optimization technique for the "Advanced Group T
 - [MF17] M. Kampouridis and F. E. B. Otero, ‘‘Evolving trading strategies using directional changes,’’ Expert Syst. Appl., vol. 73, pp. 145–160, May 2017.
 - [WMW+18] D. Wen, C. Ma, G.-J. Wang, and S. Wang, ‘‘Investigating the features of pairs trading strategy: A network perspective on the Chinese stock market,’’ Phys. A, Stat. Mech. Appl., vol. 505, pp. 903–918, Sep. 2018.
 - [SN18] S. K. Chandrinos and N. D. Lagaros, ‘‘Construction of currency portfolios by means of an optimized investment strategy,’’ Oper. Res. Perspect., vol. 5, pp. 32–44, 2018.
-
-## Project Tree
-```
-Algorithmic Trading Optimization Technique
-├─ .gitignore
-├─ README.md
-├─ data
-│  └─ stock
-│     ├─ 0050.TW
-│     │  ├─ TrainingData
-│     │  │  ├─ Date.json
-│     │  │  ├─ Signal.json
-│     │  │  ├─ StockData.json
-│     │  │  ├─ TIvalue.json
-│     │  │  ├─ Top15.json
-│     │  │  ├─ Top555.json
-│     │  │  └─ Top777.json
-│     │  ├─ ValidationData
-│     │  │  ├─ Date.json
-│     │  │  ├─ Signal.json
-│     │  │  ├─ StockData.json
-│     │  │  └─ TIvalue.json
-│     │  └─ block.json
-│     ├─ 2308.TW (...)
-│     │ 
-│     ├─ 2330.TW (...)
-│     │  
-│     ├─ 2344.TW (...)
-│     │  
-│     ├─ 2412.TW (...)
-│     │  
-│     ├─ 2413.TW (...)
-│     │ 
-│     ├─ 2603.TW (...)
-│     │  
-│     └─ META (...)
-│      
-└─ main
-   ├─ Algo
-   │  ├─ BackTesting.py
-   │  ├─ Chromosome.py
-   │  ├─ Population.py
-   │  ├─ __init__.py
-   │  └─ __pycache__
-   │     ├─ Chromosome.cpython-39.pyc
-   │     ├─ Population.cpython-39.pyc
-   │     └─ __init__.cpython-39.pyc
-   ├─ PreProCessing
-   │  ├─ CalculateTIvalue.py
-   │  ├─ Case
-   │  │  ├─ Case.py
-   │  │  ├─ TIformat.json
-   │  │  ├─ __pycache__
-   │  │  │  └─ Case.cpython-39.pyc
-   │  │  ├─ oldCase .py
-   │  │  └─ oldTIformat.json
-   │  ├─ DownloadData.py
-   │  ├─ TI2Ranking.py
-   │  ├─ TI2Signal.py
-   │  ├─ __init__.py
-   │  ├─ __pycache__
-   │  │  ├─ CalculateTIvalue.cpython-39.pyc
-   │  │  ├─ Case.cpython-39.pyc
-   │  │  ├─ Cov2Image.cpython-39.pyc
-   │  │  ├─ DownloadData.cpython-38.pyc
-   │  │  ├─ DownloadData.cpython-39.pyc
-   │  │  ├─ Ranking.cpython-39.pyc
-   │  │  ├─ SettingFile.cpython-39.pyc
-   │  │  ├─ TI2Ranking.cpython-39.pyc
-   │  │  ├─ TI2Signal.cpython-39.pyc
-   │  │  ├─ __init__.cpython-38.pyc
-   │  │  └─ __init__.cpython-39.pyc
-   │  ├─ dask-worker-space
-   │  │  ├─ global.lock
-   │  │  └─ purge.lock
-   │  └─ oldfunctions
-   │     ├─ OldDask_TI2Ranking.py
-   │     ├─ OldRanking.py
-   │     ├─ ProductFiles.py
-   │     └─ Ranking.py
-   ├─ RFiles.py
-   ├─ SettingFile.py
-   ├─ SignalMap.json
-   ├─ TI_List.json
-   ├─ __pycache__
-   │  ├─ RFiles.cpython-39.pyc
-   │  └─ SettingFile.cpython-39.pyc
-   ├─ dask-worker-space
-   │  ├─ global.lock
-   │  └─ purge.lock
-   ├─ main.py
-   └─ setting.json
-
-```
