@@ -6,7 +6,7 @@
 
 # Algorithmic-Trading-Optimization-Technique
 ## About this project
-This project will implement the optimization technique for the "Advanced Group Trading Strategy Portfolio(AGTSP)" based on the original theory. It expands the types and quantities of technical indicators and improves the fitness function. Leveraging genetic algorithm (GA), it learns the information embedded in technical indicators and transforms it into trading strategies suitable for investors' use. The proposed methods will be listed in the user interface along with the obtained trading strategy portfolios, average returns, and maximum risks. Therefore, this project aims to develop an "Advanced Group Trading Strategy Portfolio Trading System."
+This project implements the optimization technique for the "Advanced Group Trading Strategy Portfolio(AGTSP)" based on the original theory. It expands the types and quantities of technical indicators and improves the fitness function. Leveraging genetic algorithm (GA), it learns the information embedded in technical indicators and transforms it into trading strategies suitable for investors' use. The proposed methods will be listed in the user interface along with the obtained trading strategy portfolios, average returns, and maximum risks. Therefore, this project aims to develop an "Advanced Group Trading Strategy Portfolio Trading System."
 
 
 ## Architecture
